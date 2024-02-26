@@ -1,5 +1,7 @@
 # Prompt Engineering Foundations
 
+Content inspired on the following prompt guide:  https://www.promptingguide.ai/
+
 ## LLM Settings
 
 - Temperature: controls how deterministic the results are: the lower, the more deterministic. Increasing temperature = more randomness (more diverse / creative outputs).
@@ -17,11 +19,13 @@
 
 ## General tips for Prompts design
 
-- Start simple, be spacific about the instructions/tasks;
+- Start simple, be specific about the instructions/tasks;
 - Avoind sayinng what not to do but say what to do instead (it encourages more specificity and focuses on the details that lead to good responses from the model). For example:
     - Bad prompt: "The following is an agent that recommends movies to a customer. DO NOT ASK FOR INTERESTS. DO NOT ASK FOR PERSONAL INFORMATION."
     - Better prompt: "The following is an agent that recommends movies to a customer. The agent is responsible to recommend a movie from the top global trending movies. It should refrain from asking users for their preferences and avoid asking for personal information. If the agent doesn't have a movie to recommend, it should respond "Sorry, couldn't find a movie to recommend today."."
 
+### Conversation
 
+- An interesting possibility is instructing the LLM on how to behave, its intent, and its identity. Its very useful when building conversational systems (customer service chatbots, for instance).
 
-
+Example: "The following is a conversation with an AI research assistant. The assistant answers should be easy to understand even by primary school students."
