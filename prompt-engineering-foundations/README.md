@@ -1,6 +1,6 @@
 # Prompt Engineering Foundations
 
-Content inspired on the following prompt guide:  https://www.promptingguide.ai/
+ This repo part is dedicated to exploring the fundamentals of prompt engineering for Large Language Models (LLMs). Based on insights from the [the comprehensive prompt guide](https://www.promptingguide.ai/), here we delve into how various settings affect LLM output, aiming to optimize interactions for specific tasks
 
 ## LLM Settings
 
@@ -29,3 +29,38 @@ Content inspired on the following prompt guide:  https://www.promptingguide.ai/
 - An interesting possibility is instructing the LLM on how to behave, its intent, and its identity. Its very useful when building conversational systems (customer service chatbots, for instance).
 
 Example: "The following is a conversation with an AI research assistant. The assistant answers should be easy to understand even by primary school students."
+
+# Prompting Techniques
+
+Advanced prompting engineering techniques that allow us to achieve more complex tasks and improve reliability and performance of LLMs:
+
+* Zero-shot prompting : In zero-shot prompting, the model is given a task, instruction, or question without any prior examples or context to learn from. There are a few techniques that are proven to improve zero-shot prompting:
+    * Instruction tuning: finetuning models on datasets described via instructions. 
+    * RLHFL Reinforcement learning from human feedback (it empowers models like ChatGPT)
+
+* Few-shot Prompting: enabling in-context learning where we provide demonstrations in the prompt to steer the model to better performance. 
+
+* Chain-of-thought Prompting:
+
+* Generated Knowledge Prompting:
+<!-- 
+![alt text](image.png)
+ -->
+
+* Prompt Chaining:
+
+* Retrieval Augmented Generation:
+
+* Automatic Reasoning and Tool-use
+
+* Automatic Prompt Engineer
+
+* Directional Stimulus Prompting
+
+* Program-Aided Language Models
+
+* ReAct
+
+* Multimodal CoT
+
+* Graph Prompting
