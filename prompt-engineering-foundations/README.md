@@ -9,13 +9,13 @@
 
 - Top P - sampling technique with temperature (nucleus sampling): if you are looking for more exact and deterministic repsonses, keep it low. When using top_p, it means that only tokens comprising the top_p probability mass are considered for responses (a low top_p value selects the most confident responses).
 
-- Max Lengyh: Number of tokens the model generates by adjusting the max length.
+- Max Length: Number of tokens the model generates by adjusting the max length.
 
 - Stop sequence: string that stops the model form generating tokens. 
 
 - Frequence Penalty: Applies a penalty on the next token proportional to how many times the token already appeared in the response and prompt. It reduces the repetition of words in the model's response by giving tokens that appear more a higher penalty. 
 
-- Presence penalty: Penalty applied to repeated tokens. Unlike the frequency penalyy, it is the same for all repeated tokens, i.e. , a token that appears twice and another one that appears 10X are penalized the same. It prevents the model from repeating phrases too many times. For creative texts, apply a higher presence penalty. It you wanna the model to stay focused , try a lower presence penalty. GENERAL RECOMMENDATION: alter the frequency/presence penalty , but not both.
+- Presence penalty: Penalty applied to repeated tokens. Unlike the frequency penalty, it is the same for all repeated tokens, i.e. , a token that appears twice and another one that appears 10X are penalized the same. It prevents the model from repeating phrases too many times. For creative texts, apply a higher presence penalty. If you want the model to stay focused , try a lower presence penalty. GENERAL RECOMMENDATION: alter the frequency/presence penalty, but not both.
 
 ## General tips for Prompts design
 
