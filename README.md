@@ -1,9 +1,14 @@
 # Gen AI Foundations training
 
-# 1) Langchain 
-(content inspired on DeeplearningAI courses: https://learn.deeplearning.ai/)
+Welcome to the Gen AI Foundations Training repository! This repo aims to provide Data Scientists with a comprehensive understanding of key tools necessary to build a strong toolkit in Generative AI. It covers the following topics:
 
- LangChain is a framework or library designed to facilitate the creation, testing, and deployment of applications that leverage language models, like GPT (Generative Pre-trained Transformer) models, in innovative ways. The term "chain" metaphorically represents how different components—such as language models, databases, APIs, and custom logic—can be linked together to process input, generate outputs, solve problems, or automate tasks that involve natural language understanding and generation.
+1) Prompt Engineering: Learn how to craft effective prompts to guide AI models in generating desired outputs.
+2) Langchain: Understand how to utilize LangChain for building applications with large language models.
+3) Entity Recognition (**WIP - Work in progress**): Master techniques for identifying and classifying key information from text data.
+4) Agents (**WIP - Work in progress**): Explore the concept of agents in AI and how they can be used to automate tasks and decision-making processes.
 
- Example: a "chain" might involve a process where an initial language model interprets a user's query, another component retrieves relevant information from a database or the internet, and then another language model synthesizes that information into a coherent and informative response. This chaining approach allows developers to create sophisticated AI applications that can handle a wide range of tasks, from answering questions and generating text to more complex decision-making and problem-solving activities.
+# References
+
+* **Prompt Engineering Foundations**: [The comprehensive prompt guide](https://www.promptingguide.ai/)
+* **Langchain Foundations**: [DeeplearningAI courses](https://learn.deeplearning.ai/)
 
